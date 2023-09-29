@@ -13,6 +13,7 @@ body {
     overflow-x: hidden;
     background-color: white;
     scroll-behavior: smooth;
+    font-family: var(--monts);
 }
 
 :root {
@@ -34,21 +35,74 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 5rem
 }
-
-
-
-
+.brand-logo {
+    width: 130px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+}
+.header-link {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: black
+}
+#search {
+    display: none
+}
+#searchIcon {
+    font-size: 40px;
+    cursor: pointer;
+}
 
 /**** HEADER SECTION ****/
 
 /**** HERO SECTION ****/
 #hero-section {
     position: relative;
-    min-height: 90vh;
+    height: 90vh;
+    background-image: url(assets/hero/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.hero-parent {
+    border-left: 2px solid white;
+    padding: 2rem 1rem;
+    width: 80%;
 }
 
+.hero-parent h1 {
+    font-size: 4em;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: white;
+}
 
+.hero-parent p {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: white;
+    margin: 1rem 0 2rem;
+}
+
+.hs-link {
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    border: 0 solid transparent;
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
 /**** HERO SECTION ****/
 
 /**** BEST SELLERS SECTION ****/
