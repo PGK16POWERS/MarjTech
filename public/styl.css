@@ -231,7 +231,35 @@ nav ul {
     color: white;
 }
 
+.input-fields {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
 
+#email, #subbtn {
+    height: 50px
+}
+
+#email {
+    border: 0 solid transparent;
+    border-radius: 4px;
+    padding: 0 10px;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    width: 300px;
+}
+
+#subbtn {
+    width: 130px;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    border: 0 solid transparent;
+    border-radius: 4px;
+    background-color: dodgerblue;
+    color: white
+}
 
 
 
